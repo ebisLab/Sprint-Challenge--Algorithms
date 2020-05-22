@@ -25,13 +25,17 @@ possible binary search??
 Time: O(log n)
 Space: O(1)
 
+lower= O
+max= n
 
-`start` = [0, mid]
+
+`start` = [lower, mid]
 drop egg from `start` and if it breaks
 
 adjust start and end bounds of the bottom half floor
 and move towards the middle of the new formed bounds,
-repeat the pattern until we find the floor that it doesnt break and the floor above it breaks. 
+repeat the pattern until we find the floor level that it doesnt break and the floor level above that it breaks. 
+we return current floor 
 
 
 
